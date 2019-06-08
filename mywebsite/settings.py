@@ -144,4 +144,4 @@ STATICFILES_DIRS = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 #activation of django heruko
 
-django_heroku.settings(local())
+django_heroku.settings(locals())
